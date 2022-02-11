@@ -1,0 +1,67 @@
+{
+    "data":[    
+        {
+            "id": 1,
+            "cauhoi":"Nếu được mời một người để ăn tối cùng, bạn sẽ chọn ai?",
+            "loai":"1"
+        },
+        {
+            "id": 2,
+            "cauhoi":"Ai thường quan tâm bạn lúc bạn buồn nhất?",
+            "loai":"2"
+
+        },
+        {
+            "id":3,
+            "cauhoi":"Bạn thường gặp ai nhiều nhất?",
+            "loai":"2"
+
+        },
+        {
+            "id":4,
+            "cauhoi":"Ai thường bắt chuyện với bạn nhất?",
+            "loai":"2"
+
+        },
+        {
+            "id":5,
+            "cauhoi":"Bạn cảm thấy ai có tính cách phù hợp với bạn nhất?",
+            "loai":"1"
+
+        },
+        {
+            "id":6,
+            "cauhoi":"Bạn thường mơ thấy ai nhiều nhất?",
+            "loai":"1"
+
+        },
+        {
+            "id":7,
+            "cauhoi":"Bạn nghĩ ai có tình cảm với mình nhất?",
+            "loai":"1"
+
+        },
+        {
+            "id":8,
+            "cauhoi": "Ai thường có mặt lúc bạn cần giúp đỡ nhất?",
+            "loai":"2"
+
+        },
+        {
+            "id":9,
+            "cauhoi": "Valentine bạn muốn bên ai nhất :>",
+            "loai":"1"
+
+        },
+        {
+            "id":10,
+            "cauhoi": "Bạn nghĩ ai thường hay nói dối bạn nhất?",
+            "loai":"3"
+        },
+        {
+            "id":11,
+            "cauhoi": "Bạn nghĩ ai chỉ nên làm bạn nhất?",
+            "loai":"3"
+        }
+    ]
+}

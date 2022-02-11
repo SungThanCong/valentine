@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+
+
+}
+#header{
+    background-image: url("./img/background-2.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.img-main{
+    animation-name: animation-appear;
+    animation-duration: 4s;
+    transform: scale(1.05);
+}
+#part-1{
+    background-image: url("./img/part-1.png");
+    background-size: cover;
+    min-height: 728px;
+    font-size: 1.2em;
+}
+.text-white{
+    text-shadow: 2px 0 0 rgb(184, 0, 221), -2px 0 0 rgb(184, 0, 221), 0 2px 0 rgb(184, 0, 221), 0 -2px 0 rgb(184, 0, 221), 1px 1px rgb(184, 0, 221), -1px -1px 0 rgb(184, 0, 221), 1px -1px 0 rgb(184, 0, 221), -1px 1px 0 rgb(184, 0, 221);
+}
+#nhapten-input{
+    height: 40px;
+    border:none;
+}
+#part-1-soluong{
+    color: white;
+    text-align: center;
+    margin: 16px;
+}
+.name_item{
+    text-align: center;
+    color: white;
+    background-color: #8c52ffe5;
+    margin: 12px 36px;
+    padding: 6px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.name_item.answer{
+    background-color: #bb1d1de5;
+    color: rgb(228, 228, 228);
+    max-width: 800px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 12px;
+}
+.name_item:hover{
+    background-color: #6931da;
+}
+#part-2{
+    min-height: 800px;
+}
+.part2-icon{
+    color: rgb(196, 14, 196);
+    cursor:pointer;
+    
+}
+.part2-icon.unactive{
+    color: gray;
+    transition: 0.4s;
+}
+.part2-icon.active{
+    cursor: auto;
+}
+.part2-icon.unactive:hover{
+    transform: scale(1.1);
+    color: rgb(196, 14, 196);
+
+}
+.part2-question{
+    background-color: rgb(175, 66, 175);
+    min-height: 120px;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.6em;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#part-3{
+    background-color: #8C52FF;
+    min-height: 700px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#part-3 > h1{
+    font-size: 3.6em;
+}
+@keyframes animation-appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
